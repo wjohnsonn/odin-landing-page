@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', arial;
+    
+}
+
+img {
+    height: auto;
+    width: 150px;
+    margin: 10px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Navbar Part */
+
+.navbar {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: flex-end;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.navbar .links {
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.logo {
+    color: white;
+    margin: -5px;
+
+}
+
+a {
+    font-weight: initial;
+    font-size: initial;
+    text-decoration: none;
+    color: inherit;
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: 0;
+}
+
+/* Hero Part */
+
+.hero {
+    background-color: #1f2937;
+    margin: 0;
+    height: 350px
+}
+
+.hero-con {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    padding: 50px;
+    padding-left: 200px;
+    
+}
+
+.hero-con button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#heroimg {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    right: 210px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    justify-items: flex-start;
+    align-items: flex-start;
+    flex-basis: 400px;
+    text-align: left;
+}
+
+.hero-con p {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-basis: 300px;
+    text-align: left;
+}
+
+/* Information Part */
+
+.info {
+    height: 400px
+    
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 30px;
+}
+
+.infoimg {
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.subtext1,
+.subtext2,
+.subtext3,
+.subtext4 {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 100;
+    display: block;
+    width: 140px;
+    text-align: center;
+    margin-top: -15px;
+}
+.subtext1 {
+    position: absolute;
+    left: 290px;
+}
+
+.subtext2 {
+    position: absolute;
+    left: 465px;
+}
+
+.subtext3 {
+    position: absolute;
+    right: 465px;
+}
+
+.subtext4 {
+    position: absolute;
+    right: 290px;
+}
+
+/* Quotation Part */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote p {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    text-align: left;
+}
+
+.quote h3 {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 22px;
+}
+/* Sign Up Part */
+
+.call {
+    display: flex;
+    justify-content: space-around;
+}
+
+.callbox h2 {
+    color: white;
+
+}
+.callbox {
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
+    margin: 100px;
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1;
+}
+
+
+.callbox button {
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -100px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+}
